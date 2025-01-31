@@ -2,7 +2,7 @@ name: Generate Podcast Feed
 on: [push]
 jobs:
   build:
-    runs-on: arch-latest
+    runs-on: ubuntu-18.04
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
